@@ -27,8 +27,8 @@ public class TestBaiduHome {
             driver.switchTo().window(winHandle);     
             }     
 		
-		String aTitle=driver.getTitle();//取新窗口的title
-		System.out.println("current widnow title is:"+aTitle);//打出来看看
+		String aaaTitle=driver.getTitle();//取新窗口的title
+		System.out.println("current widnow title is:"+aaaTitle);//打出来看看
 		assert aTitle.toLowerCase().contains("github");//断言
 		
 	}
